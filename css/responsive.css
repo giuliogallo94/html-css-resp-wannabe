@@ -1,0 +1,21 @@
+/************************************************
+    UTILITIES
+ ************************************************/
+
+/* LAYOUT */
+
+@media screen and (max-width: 1139px) {
+
+    .container {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100vw;
+        padding: 0;
+    }
+}
+
