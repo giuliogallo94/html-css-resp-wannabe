@@ -2,20 +2,72 @@
     UTILITIES
  ************************************************/
 
-/* LAYOUT */
+
 
 @media screen and (max-width: 1139px) {
-
+    /* LAYOUT */
     .container {
         width: 100vw;
     }
 }
 
 @media screen and (max-width: 768px) {
-
+    /* LAYOUT */
     .container {
         width: 100vw;
         padding: 0;
     }
 }
 
+@media screen and (max-width: 480px) {
+    /* LAYOUT */
+    .container {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    /* LESSONS SECTION */
+    .lessons .col {
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+
+    /* STEPS SECTION */
+    .steps {
+        margin: 0;
+        padding: 0;
+        padding-top: 3rem;
+    }
+
+    .steps .col {
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+
+
+    /* WHY US SECTION */
+    .why-us {
+        padding-top: 3rem;
+        margin-bottom: 0;
+        background-color: #222222;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+        padding-top: 3rem;
+    }
+}
